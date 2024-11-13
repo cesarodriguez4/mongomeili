@@ -135,7 +135,10 @@ module.exports = function mongoMeili(schema, options) {
   // Setup MeiliSearch Client
   const client = new MeiliSearch({
     host: host,
-    apiKey: apiKey
+    apiKey: apiKey,
+    headers: {
+      'Authorization': "Bearer ".concat(apiKey),
+    }
   });
   
   // Asynchronously create the index

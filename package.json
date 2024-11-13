@@ -1,14 +1,14 @@
 {
-  "name": "mongomeili",
+  "name": "mongomeili-forked",
   "version": "0.1.8",
-  "description": "Keep your MongooseJS Schemas synced with MeiliSearch",
-  "homepage": "https://github.com/loophole-labs/mongomeili",
+  "description": "Keep your MongooseJS Schemas synced with MeiliSearch | Forked version by @cesarodriguez4",
+  "homepage": "https://github.com/cesarodriguez4/mongomeili",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
-  "repository": "git@github.com:Loophole-Labs/mongomeili.git",
-  "author": "Shivansh Vij <shivanshvij@loopholelabs.io>",
+  "repository": "git@github.com:cesarodriguez/mongomeili.git",
+  "author": "Cesar Rodriguez <cesarodriguez4@gmail.com>",
   "license": "MPL-2.0",
   "private": false,
   "scripts": {
